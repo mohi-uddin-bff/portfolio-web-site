@@ -71,3 +71,13 @@ footer{
 p{
     color: dimgrey;
 }
+.animation-top-part{
+    animation-name: header;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes header{
+    0%{left: 0px; top: -200px}
+    100%{left: 0px; top: 0px;}
+}
